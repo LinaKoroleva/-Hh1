@@ -1,0 +1,18 @@
+﻿using System;
+class Program
+{
+    private static void Main()
+    {
+        int a;
+        do
+        {
+            Console.WriteLine("Введите число:");
+            a=Convert.ToInt32(Console.ReadLine());
+           
+
+        }
+        while(a!=0);
+        Console.WriteLine("Конец");
+    }
+
+}
